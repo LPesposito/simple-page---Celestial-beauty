@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Celestial Beauty</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <section class="presentation">
+    <div class="presentation-bg"></div>
+    <header class="intro">
+      <img src="assets/background.png" alt="Celestial Beauty Logo" class="logo-img" />
+      <p>Cosméticos veganos para você e para o planeta</p>
+    </header>
+    <section class="hero intro">
+      <h2>Beleza consciente, planeta radiante</h2>
+      <p>Produtos veganos, sustentáveis e livres de crueldade</p>
+    </section>
+  </section>
+
+  <main class="main-content">
+    <section class="products">
+      <h2>Nossos Produtos</h2>
+      <div class="products-list">
+        <div class="product hidden" data-id="creme1" data-title="Protetor Solar Facial" data-img="assets/creme1.jpg">
+          <img src="assets/creme1.jpg" alt="Protetor Solar Facial" />
+          <h3>Protetor Solar Facial</h3>
+          <p>Proteção solar diária para o rosto</p>
+        </div>
+        <div class="product hidden" data-id="creme2" data-title="Creme Hidratante" data-img="assets/creme2.jpg">
+          <img src="assets/creme2.jpg" alt="Creme Hidratante" />
+          <h3>Creme Hidratante</h3>
+          <p>Hidratação profunda para todos os tipos de pele</p>
+        </div>
+        <div class="product hidden" data-id="espuma" data-title="Espuma Facial" data-img="assets/creme3.png">
+          <img src="assets/creme3.png" alt="Espuma Facial" />
+          <h3>Espuma Facial</h3>
+          <p>Limpeza profunda com extratos naturais</p>
+        </div>
+        <div class="product hidden" data-id="hidratante" data-title="Hidratante Corporal" data-img="assets/hidratante.png">
+          <img src="assets/hidratante.png" alt="Hidratante Corporal" />
+          <h3>Hidratante Corporal</h3>
+          <p>Hidratação intensa com óleo de amêndoas</p>
+        </div>
+        <div class="product hidden" data-id="base" data-title="Base para Pele" data-img="assets/base.jpg">
+          <img src="assets/base.jpg" alt="Base para Pele" />
+          <h3>Base para Pele</h3>
+          <p>Diversas tonalidades para todos os tipos de pele</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modal Produto -->
+    <div class="modal" id="product-modal">
+      <div class="modal-content">
+        <img class="modal-img" src="" alt="" />
+        <div class="modal-info">
+          <h3 class="modal-title"></h3>
+          <p class="modal-desc"></p>
+        </div>
+        <button class="modal-close" aria-label="Fechar">&times;</button>
+      </div>
+    </div>
+
+    <section class="about">
+      <h2>Sobre Nós</h2>
+      <p>
+        Na Celestial Beauty, acreditamos que a beleza pode transformar o mundo. Somos uma marca de cosméticos veganos, cruelty-free e sustentável, que valoriza ingredientes naturais e embalagens recicláveis. Nossa missão é inspirar autocuidado consciente, respeitando o planeta e celebrando a diversidade. Junte-se ao nosso universo e descubra uma nova forma de cuidar de você e do meio ambiente.
+      </p>
+    </section>
+
+    <div class="contact-buttons-area">
+      <p class="contact-title">Faça seu pedido aqui!</p>
+      <div class="contact-buttons">
+        <a href="tel:+5511999999999" class="contact-btn phone" target="_blank" rel="noopener" aria-label="Telefone">
+          <span>&#128222; (11) 99999-9999</span>
+        </a>
+        <a href="mailto:contato@celestialbeauty.com" class="contact-btn email" target="_blank" rel="noopener" aria-label="E-mail">
+          <span>&#9993; contato@celestialbeauty.com</span>
+        </a>
+        <a href="https://www.instagram.com/celestialbeauty.cosmeticos/" class="contact-btn instagram" target="_blank" rel="noopener" aria-label="Instagram">
+            <img src="assets/instagram-icon.svg" alt="Instagram Icon" class="instagram-icon" width="30px" height="30" />
+          <span>Instagram</span>
+        </a>
+      </div>
+    </div>
+
+    <footer>
+      <p>&copy; 2025 Celestial Beauty. Todos os direitos reservados &reg;</p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

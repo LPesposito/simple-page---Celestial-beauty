@@ -1,0 +1,15 @@
+[creme1]
+O Protetor Solar Facial da Celestial Beauty protege sua pele dos raios UVA e UVB com uma fórmula vegana, leve e não oleosa. Desenvolvido sem testes em animais e com embalagem reciclável, oferece cuidado diário para quem valoriza a beleza e o planeta.
+---
+[creme2]
+O Creme Hidratante da Celestial Beauty proporciona hidratação profunda com ingredientes naturais e veganos. Sua embalagem é feita de material reciclável e sua fórmula é livre de crueldade, garantindo maciez e nutrição para todos os tipos de pele.
+---
+[espuma]
+A Espuma Facial Celestial Beauty limpa suavemente, removendo impurezas sem agredir a pele. Com extratos naturais, veganos e embalagem sustentável, é ideal para quem busca frescor e respeito ao meio ambiente.
+---
+[hidratante]
+O Hidratante Corporal Celestial Beauty oferece hidratação intensa com óleo vegetal, mantendo a pele macia e perfumada. Produto vegano, não testado em animais e com embalagem reciclável, perfeito para um cuidado consciente.
+---
+[base]
+A Base para Pele da Celestial Beauty proporciona cobertura uniforme e acabamento natural, disponível em diversas tonalidades. Sua fórmula vegana, livre de crueldade e com embalagem sustentável, valoriza a diversidade e o respeito ao planeta.
+---
